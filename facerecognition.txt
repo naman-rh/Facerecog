@@ -121,11 +121,11 @@ import numpy as np
 from os import listdir
 from os.path import isfile, join
 
-Image_samples_dict = {"[0]": "Ayush", 
-                      "[1]": "Shivam"}
+Image_samples_dict = {"[0]": "Naman", 
+                      "[1]": "Rahul"}
 
-Image_samples_dict_n = {"n0": "Ayush", 
-                        "n1": "Shivam"}
+Image_samples_dict_n = {"n0": "Naman", 
+                        "n1": "Rahul"}
 
 def draw_test(name, pred, im):
     monkey = Image_samples_dict[str(pred)]
